@@ -2,7 +2,8 @@
 layout: post
 title:  "Inconsistent DateTime arithmetic"
 date:   2021-11-22 20:00:00 +0000
-categories: [php, datetime]
+categories: [PHP, Datetime]
+tags: [php, datetime]
 ---
 
 There is some inconsistency in date/time operations. Example presented in this post is written in PHP language, but it also exists in Java, C# and probably more languages.
