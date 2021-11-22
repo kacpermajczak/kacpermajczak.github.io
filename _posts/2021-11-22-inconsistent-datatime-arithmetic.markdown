@@ -5,6 +5,10 @@ date:   2021-11-22 20:00:00 +0000
 categories: [php, datetime]
 ---
 
+There is some inconsistency in date/time operations. Example presented in this post is written in PHP language, but it also exists in Java, C# and probably more languages.
+
+This post was inspired by book [*Software Mistakes and Tradeoffs by Tomasz Lelek and Jon Skeet*](https://www.manning.com/books/software-mistakes-and-tradeoffs).
+
 ## Requirements
 Let's assume you're building a *voting app*. The requirement is to check if voter is **18 years old**.
 
@@ -66,5 +70,3 @@ This time test is red - it fails which means person **cannot vote** because will
 ## Summary
 
 You need to be careful when you work with dates, because many traps you can be caught. In this particular case I would suggest asking your business, because answer depends on country you are building software for.
-
-This post was inspired by book [*Software Mistakes and Tradeoffs by Tomasz Lelek and Jon Skeet*](https://www.manning.com/books/software-mistakes-and-tradeoffs).
